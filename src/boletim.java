@@ -12,7 +12,7 @@ public class boletim {
         for(String adiciona = input.next(); adiciona.equalsIgnoreCase("s"); adiciona = input.next()){
             System.out.print("Qual o nome do aluno? ");
             nome = input.next();
-
+            double[] notas = new double[2];
             for (int i = 0; i<2; i++){
                 System.out.print("Digite a nota "+ (i+1)+": ");
                 notas[i] = input.nextDouble();
